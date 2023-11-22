@@ -1,0 +1,128 @@
+
+header{
+    color: white;
+    font-size: 20px;
+    
+    background-image: url("theater-image-background.png");
+    background-size: contain;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+}
+nav{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
+    padding-right: 100px;
+    font-size: 30px;
+}
+.nav-bar, .nav-link{
+    padding-left: 50px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 15px;
+    
+}
+a:hover{
+    color: lightblue;
+}
+
+.big-text{
+    color: white;
+    text-align: center;
+    font-size: 125px;
+    padding-top: 300px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+}
+article{
+    padding-top: 100px;
+}
+
+.showarticle{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+}
+.show-heading{
+
+    padding: 10px;
+    border:1px solid black;
+    width:  50%;
+    margin: 0 auto 20px;
+    font-family: none;
+    background-color:lightgrey;
+}
+.showtimes{
+    color: black;
+    text-decoration: black;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 400px;
+    list-style-image: url("a-raisin-in-the-sun-theater-1.png");
+}
+
+
+h4{
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+p{
+    font-size:  15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+.footerheading{
+    font-size: 40px;
+}
+div{
+    font-size: 10px;
+    padding-top: 40px;
+
+}
+#chicago{
+    height: 300px;
+    width: 400px;
+    padding-top: 40px;
+    
+}
+hr{
+    color: black solid;
+    margin-right: 30%;
+
+}
+.readmore{
+    border: 1px black solid;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 8%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.readmore:hover{
+    color: red;
+}
