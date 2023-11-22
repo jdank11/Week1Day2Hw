@@ -68,10 +68,19 @@ article{
 .showtimes{
     color: black;
     text-decoration: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+.showlist{
+    display: flex;
     flex-direction: column;
-    list-style: none;
-    padding-left: 400px;
-    list-style-image: url("a-raisin-in-the-sun-theater-1.png");
+    justify-content: center;
+    font-size: 30px;
+    padding-left: 10px;
+
 }
 
 
@@ -109,18 +118,25 @@ div{
 }
 hr{
     color: black solid;
-    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
 
 }
 .readmore{
+    display: flex;
+    justify-content: center;
     border: 1px black solid;
     background-color: orange;
     color: white;
     padding: 10px;
     margin: 0 auto 20px;
-    width: 8%;
+    height: 10%;
+    width: 10%;
     font-size: 15px;
     text-align: center;
+    margin-top: 8%;
 }
 
 .readmore:hover{
